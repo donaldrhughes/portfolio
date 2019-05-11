@@ -73,3 +73,10 @@ footer.page-footer {
   font-size: 16px;
   
 }
+
+.transbox{
+  background: rgba(255, 255, 255, 0.3)
+}
+.mtop{
+  margin-top:5%;
+}
