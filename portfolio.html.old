@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Donald R. Hughes</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <script defer src="https://use.fontawesome.com/releases/v5.4.2/js/all.js"
+    integrity="sha384-wp96dIgDl5BLlOXb4VMinXPNiB32VYBSoXOoiARzSTXY+tsK8yDTYfvdTyqzdGGN"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <nav class="grey darken-1" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="./index.html" class="brand-logo"><img src="./images/0.jpg" class="z-depth-2 mtop"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <!-- <li><a href="./contact.html">Contact</a></li> -->
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <!-- <li><a href="./contact.html">Contact</a></li> -->
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger grey darken-1"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center blue-text ">
+          <div style="color:#6a006c;">Portfolio</div>
+        </h1>
+        <div class="row center">
+          <!-- <h4 class="header col s12 black-text">Check out some of my work below!</h4> -->
+        </div>
+        <div class="row center">
+          <!-- <a href="./portfolio.html" id="portfolio-button" class="btn-large waves-effect blue">Portfolio</a> -->
+
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="./images/flare.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">present_to_all</i></h2>
+            <h5 class="center">Projects</h5>
+            <div class="row">
+              <div class="col s12 m10">
+
+
+                <div class="card hoverable">
+                  <div class="card-image"><a href="https://fam-ily.herokuapp.com">
+                      <img src="images/family.png">
+                      <span class="card-title"></span>
+                  </div>
+                  <div class="card-content">
+                    <p> -Social Media Platform for Families (MVP)
+                    </p>
+                  </div>
+                  <div class="card-action">
+                    FAM.ily</a>
+                  </div>
+                </div>
+
+                <div class="card hoverable">
+                  <div class="card-image"><a href="https://jwesterv.github.io/Project-1">
+                      <img src="./images/watts.jpg">
+                      <span class="card-title"></span>
+                  </div>
+                  <div class="card-content">
+                    <p> - Find a Tesla charge station in your area
+                    </p>
+                  </div>
+                  <div class="card-action">
+                    WattsApp </a>
+                  </div>
+                </div>
+
+                <div class="card hoverable">
+                  <div class="card-image"><a href="https://sheltered-badlands-59865.herokuapp.com/">
+                      <img src="./images/Farmassist.jpg">
+                      <span class="card-title ">
+                        <div class="projText left-align">FarmAssist</div>
+                      </span>
+                  </div>
+                  <div class="card-content">
+                    <p> -Search for farms - Use zip code: “92663” (example)
+                    </p>
+                  </div>
+                  <div class="card-action">
+                    FarmAssist </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">videogame_asset</i></h2>
+
+            <h5 class="center">Games</h5>
+
+            <div class="card hoverable">
+              <!-- <div class="card-image">
+                  <img src="#">
+                  <span class="card-title"></span>
+                </div> -->
+              <div class="card-action">
+                <a href="https://donaldrhughes.github.io/Crypto-Memory/">Crypto-Memory</a>
+              </div>
+              <div class="card-content">
+                <p>Crypto Memory Game Built in React
+                </p>
+              </div>
+
+            </div>
+
+            <div class="card hoverable">
+              <!-- <div class="card-image">
+                  <img src="#">
+                  <span class="card-title"></span>
+                </div> -->
+              <div class="card-action">
+                <a href="https://donaldrhughes.github.io/Trivia/">Blockchain Trivia</a>
+              </div>
+              <div class="card-content">
+                <p>Play a game of Blockchain Trivia - Showcases usage of multiple javascript timers and jquery
+                </p>
+              </div>
+
+            </div>
+
+
+
+            <div class="card hoverable">
+              <!-- <div class="card-image">
+                  <img src="#">
+                  <span class="card-title"></span>
+                </div> -->
+              <div class="card-action">
+                <a href="https://donaldrhughes.github.io/crypto-match/">Crypto Hangman</a>
+              </div>
+              <div class="card-content">
+                <p>Play a game of Crypto Hangman - Showcases fundamental javascript use.
+                </p>
+              </div>
+
+            </div>
+
+
+
+
+
+          </div>
+
+        </div>
+
+
+
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">code</i></h2>
+            <h5 class="center">Other Web Apps</h5>
+
+            <div class="card hoverable">
+              <!-- <div class="card-image">
+                  <img src="#">
+                  <span class="card-title"></span>
+                </div> -->
+              <div class="card-action">
+                <a href="https://shrouded-garden-45627.herokuapp.com/survey/">Friends Online</a>
+              </div>
+              <div class="card-content">
+                <p>Showcases algorithm, randomization, JSON, Node.js
+                  <br><br>- To create a random friend, Submit with total below 10!
+                </p>
+              </div>
+
+            </div>
+
+            <div class="card hoverable">
+                <!-- <div class="card-image">
+                    <img src="#">
+                    <span class="card-title"></span>
+                  </div> -->
+                <div class="card-action">
+                  <a href="https://thawing-dawn-28063.herokuapp.com/">NPR Article Scrape</a>
+                </div>
+                <div class="card-content">
+                  <p>Showcases Scraping (Cheerio), MongoDB / Mongoose
+                    <br><br>- Check out the newest articles from NPR.org
+                  </p>
+                </div>
+  
+              </div>
+
+            
+            <div class="card hoverable">
+              <!-- <div class="card-image">
+                  <img src="#">
+                  <span class="card-title"></span>
+                </div> -->
+              <div class="card-action">
+                <a href="https://guarded-meadow-63386.herokuapp.com/">Burger Devour</a>
+              </div>
+              <div class="card-content">
+                <p>Showcases Full Stack Programming - Sequelize, Express, CRUD, Handlebars
+                </p>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <footer class="page-footer footbgcolor">
+    <div class="container">
+
+      <div class="row">
+        <div class="col l6 s12">
+
+          <p class="grey-text text-lighten-4">
+            <div class="col l12 s12"></div>
+          </p>
+        </div>
+
+        <div class="col s12 center-align">
+
+          <a style="font-size: 48px; color: #006cb7;" href="https://www.linkedin.com/in/donaldrhughes/"><i
+              class="fab fa-linkedin"></i></a><a class="white-text"
+            href="https://www.linkedin.com/in/donaldrhughes/"></a>
+          <a style="font-size: 48px; color:#6a006c;" href="https://twitter.com/drhiot?lang=en"><i
+              class="fab fa-github"></i></a><a class="white-text" href="https://github.com/donaldrhughes"></a>
+          <a style="font-size: 48px; color: #ffffff;" href="https://twitter.com/drhiot?lang=en"><i
+              class="fab fa-twitter"></i></a><a class="white-text" href="https://twitter.com/drhiot"></a>
+          <a style="font-size: 48px; color: goldenrod;" href="mailto:donaldrhughes@gmail.com"><i
+              class="fas fa-envelope"></i></a><a class="white-text" href="mailto:donaldrhughes@gmail.com"></a>
+
+        </div>
+        <!-- <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div> -->
+      </div>
+    </div>
+    <div class="footer-copyright footbgcolor2">
+      <div class="container"> -
+        Copyright 2019 - <a class="brown-text" href="./index.html">Donald R. Hughes | Newport Beach, CA.</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+
+</body>
+
+</html>

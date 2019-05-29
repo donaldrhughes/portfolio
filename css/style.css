@@ -1,14 +1,7 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: white;
 }
 
 p {
@@ -16,37 +9,44 @@ p {
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: white;
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 700px;
   line-height: 0;
-  height: auto;
+
   color: rgba(255,255,255,.9);
+  top: 0;
+  margin-top: 0%;
 }
+
   .parallax-container .section {
+    top: 0;
     width: 100%;
+    
   }
+
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
+    top: 0;
     position: absolute;
-    top: 40%;
+    min-height: 750px;
+    
   }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+ 
+ 
   }
 }
 
+
+
 .icon-block {
-  padding: 0 15px;
+  padding: 0px 15px;
+  
 }
 .icon-block .material-icons {
   font-size: inherit;
@@ -57,17 +57,16 @@ footer.page-footer {
 }
 
 .footbgcolor{
-  background: #85c7e2;
-}
-.footbgcolor{
   background: #000000;
 }
 
 .hob{
-  color: #eeeeee;
+  color: black;
+  margin: 2%;
+  
 }
 .hobhead{
-  color: #006cb7;
+  color: white;
 }
 .projText{
   font-size: 16px;
@@ -75,11 +74,19 @@ footer.page-footer {
 }
 
 .transbox{
-  background: rgba(255, 255, 255, 0.3)
+  background: rgba(255, 255, 255, 0.5)
 }
 .mtop{
   margin-top:5%;
 }
 .just{
   text-align:justify;
+}
+.skilltext{
+  color: black;
+  margin-right:2%;
+}
+.boxsize{
+  width: 100%;
+  margin-right:0%;
 }
