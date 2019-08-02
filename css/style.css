@@ -26,6 +26,17 @@ p {
     
   }
 
+  .parallax-port {
+    min-height: 3000px;
+ 
+  }
+  
+    .parallax-container .section {
+      top: 0;
+      width: 100%;
+      
+    }
+
 .icon-block {
   padding: 0px 15px;
   
