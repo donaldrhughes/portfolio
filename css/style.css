@@ -1,4 +1,5 @@
 nav ul a,
+
 nav .brand-logo {
   color: white;
 }
@@ -23,11 +24,7 @@ p {
     top: 0;
     width: 100%;
     
-    
   }
-
-
-
 
 .icon-block {
   padding: 0px 15px;
@@ -50,9 +47,11 @@ footer.page-footer {
   margin: 2%;
   
 }
+
 .hobhead{
   color: white;
 }
+
 .projText{
   font-size: 16px;
   
@@ -62,29 +61,30 @@ footer.page-footer {
   background: rgba(255, 255, 255, 0.5);
   
 }
+
 .mtop{
   margin-top:5%;
 }
+
 .just{
   text-align:justify;
 }
+
 .skilltext{
   color: black;
   margin-right:2%;
 }
+
 .boxsize{
   width: 100%;
-  
   margin-right:0%;
 }
 
 
 @media screen and (max-width : 550px) and (min-width : 300px){
-  
   .parallax-container {
     min-height: 1600px;
    
   }
   
-
 }
