@@ -83,7 +83,7 @@ footer.page-footer {
 
 @media screen and (max-width : 550px) and (min-width : 300px){
   .parallax-container {
-    min-height: 1600px;
+    min-height: 1400px;
    
   }
   
