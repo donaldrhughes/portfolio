@@ -13,7 +13,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 900px;
+  min-height: 1000px;
   
   line-height: 0;
 
@@ -30,23 +30,11 @@ p {
   }
 
 
-@media screen and (max-width : 992px) {
-  .parallax-container .section {
-    top: 0;
-    position: absolute;
-    min-height: 850px;
-    
-  }
-  #index-banner .section {
-    top: 0;
- 
- 
-  }
-}
 
-@media screen and(max-width : 500px) {
+
+@media screen and(max-width : 600px) {
   .parallax-container{
-    min-height: 1000px;
+    min-height: 1200px;
    
 
   }
